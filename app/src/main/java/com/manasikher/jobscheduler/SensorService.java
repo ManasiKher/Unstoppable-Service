@@ -30,7 +30,6 @@ public class SensorService extends Service {
     public void onTaskRemoved(Intent rootIntent) {
         super.onTaskRemoved(rootIntent);
     }
-
     @Override
     public void onDestroy() {
         super.onDestroy();
